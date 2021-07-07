@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding-top: 20px;
+}
+
+.like {
+  cursor: pointer;
+  transition: 0.5s all linear;
+}
+.like:active {
+  transform: scale(0.8);
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.th__click {
+  cursor: grab;
+}
